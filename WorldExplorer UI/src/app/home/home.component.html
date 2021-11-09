@@ -1,0 +1,39 @@
+<nav class="navbar">
+    <input class="input" type="text" name="name" [(ngModel)] = "name" (ngModelChange) = "search()"
+    placeholder="Enter Country to search">
+  </nav>
+<div>
+    <mat-card class="example-card" *ngFor="let value of countrys">
+    <mat-card-header>
+    <h2>{{value.name}}</h2>
+    <mat-card-title style="color: coral; font-size: 20px; padding: 15px;">{{value.title}}</mat-card-title>
+    </mat-card-header>
+        <img mat-card-image [src]="value.flag" >
+        <mat-card-content>Alphacode:{{value.alpha2Code}}</mat-card-content>
+        <mat-card-content>Capital:{{value.capital}}</mat-card-content>
+        <mat-card-content>Native:{{value.nativeName}}</mat-card-content>
+        <mat-card-content>Population:{{value.population}}</mat-card-content>
+        <mat-card-content>Region:{{value.region}}</mat-card-content>
+        <mat-card-content>Subregion:{{value.subregion}}</mat-card-content>
+        <mat-card-content>Area:{{value.area}}</mat-card-content>
+        
+    <mat-card-actions>
+        <button (click)="Like(value)">like</button>
+        &nbsp;&nbsp;
+        <button>Share</button>
+    </mat-card-actions>
+    </mat-card>    
+  </div>
+
+
+
+
+    <!-- <div>
+        <pagination-controls (pageChange)="page = $event">
+
+        </pagination-controls>
+    </div> -->
+       
+
+    
+  <app-footer></app-footer>  

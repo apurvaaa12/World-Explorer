@@ -1,0 +1,36 @@
+<section class="form" style="background-image: url('https://thumbs.dreamstime.com/b/happy-couple-love-travel-raised-hands-cliff-happy-couple-love-travel-raised-hands-cliff-norway-man-woman-112188598.jpg'); background-size: cover; height:700px;">
+    <form [formGroup]="form" class="form-horizontal">
+    <div class="col-md-6  mb-3 ">
+      <h1 class="modal-title text-white" style="margin-left: 20%; "><strong>Login User</strong></h1>
+    <div class="form-group" >
+      <label style="color: whitesmoke;"><strong>Email</strong></label>
+      <input type="text" [(ngModel)]="user.email" class="form-control" id="email" name="email" aria-describedby="email"
+      placeholder="Enter email" formControlName="email">
+      <small style="color: whitesmoke;" id="email"><strong>We'll never share your email with anyone else.</strong></small>
+    </div>
+    <div *ngIf="form.controls.email.touched && !form.controls.email.valid" class="alert alert-danger">
+        Email is required.
+     </div> 
+    </div>
+    <div class="col-md-6 mb-3">
+    <div>
+        <label style="color: whitesmoke;"><strong>Password</strong></label>
+      <input type="password" [(ngModel)]="user.password" class="form-control" id="password" name="password"
+      placeholder="Enter password" formControlName="password">
+    </div>
+    <div *ngIf="form.controls.password.touched && !form.controls.password.valid" 
+    class="alert alert-danger">
+       Password is required.
+    </div> 
+  </div>
+  
+    <div class="col-md-6 mb-3">
+    <div class="form-group">
+      
+      <button [disabled]="!form.valid" type="submit" class="btn  btn-primary" (click)="validate()">Login</button>
+    
+   </div>
+  </div>
+  </form>
+</section>
+  <app-footer></app-footer>

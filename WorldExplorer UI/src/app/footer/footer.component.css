@@ -1,0 +1,19 @@
+.page-footer{
+    margin-left: 0em;
+     height: fit-content;
+       border-top: solid 3px black;
+       background-color:black;
+       color: #fff;
+   }
+   .img-fluid {
+       margin-left: 0em;
+       max-width: 15em;
+       height: 10em;
+     }
+   
+   .fa{
+       
+          font-size: 2em ! important;
+          color: #fff;
+          padding: 0.2em;
+   }

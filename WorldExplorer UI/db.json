@@ -1,0 +1,972 @@
+{
+  "profile": [
+    {
+      "name": "Antarctica",
+      "topLevelDomain": [
+        ".aq"
+      ],
+      "alpha2Code": "AQ",
+      "alpha3Code": "ATA",
+      "callingCodes": [
+        "672"
+      ],
+      "capital": "",
+      "altSpellings": [],
+      "region": "Polar",
+      "subregion": "",
+      "population": 1000,
+      "latlng": [
+        -74.65,
+        4.48
+      ],
+      "demonym": "",
+      "area": 14000000,
+      "gini": null,
+      "timezones": [
+        "UTC-03:00",
+        "UTC+03:00",
+        "UTC+05:00",
+        "UTC+06:00",
+        "UTC+07:00",
+        "UTC+08:00",
+        "UTC+10:00",
+        "UTC+12:00"
+      ],
+      "borders": [],
+      "nativeName": "Antarctica",
+      "numericCode": "010",
+      "currencies": [
+        {
+          "code": "AUD",
+          "name": "Australian dollar",
+          "symbol": "$"
+        },
+        {
+          "code": "GBP",
+          "name": "British pound",
+          "symbol": "£"
+        }
+      ],
+      "languages": [
+        {
+          "iso639_1": "en",
+          "iso639_2": "eng",
+          "name": "English",
+          "nativeName": "English"
+        },
+        {
+          "iso639_1": "ru",
+          "iso639_2": "rus",
+          "name": "Russian",
+          "nativeName": "Русский"
+        }
+      ],
+      "translations": {
+        "de": "Antarktika",
+        "es": "Antártida",
+        "fr": "Antarctique",
+        "ja": "南極大陸",
+        "it": "Antartide",
+        "br": "Antártida",
+        "pt": "Antárctida",
+        "nl": "Antarctica",
+        "hr": "Antarktika",
+        "fa": "جنوبگان"
+      },
+      "flag": "https://restcountries.eu/data/ata.svg",
+      "regionalBlocs": [],
+      "cioc": "",
+      "id": 1
+    },
+    {
+      "name": "Algeria",
+      "topLevelDomain": [
+        ".dz"
+      ],
+      "alpha2Code": "DZ",
+      "alpha3Code": "DZA",
+      "callingCodes": [
+        "213"
+      ],
+      "capital": "Algiers",
+      "altSpellings": [
+        "DZ",
+        "Dzayer",
+        "Algérie"
+      ],
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "population": 40400000,
+      "latlng": [
+        28,
+        3
+      ],
+      "demonym": "Algerian",
+      "area": 2381741,
+      "gini": 35.3,
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "borders": [
+        "TUN",
+        "LBY",
+        "NER",
+        "ESH",
+        "MRT",
+        "MLI",
+        "MAR"
+      ],
+      "nativeName": "الجزائر",
+      "numericCode": "012",
+      "currencies": [
+        {
+          "code": "DZD",
+          "name": "Algerian dinar",
+          "symbol": "د.ج"
+        }
+      ],
+      "languages": [
+        {
+          "iso639_1": "ar",
+          "iso639_2": "ara",
+          "name": "Arabic",
+          "nativeName": "العربية"
+        }
+      ],
+      "translations": {
+        "de": "Algerien",
+        "es": "Argelia",
+        "fr": "Algérie",
+        "ja": "アルジェリア",
+        "it": "Algeria",
+        "br": "Argélia",
+        "pt": "Argélia",
+        "nl": "Algerije",
+        "hr": "Alžir",
+        "fa": "الجزایر"
+      },
+      "flag": "https://restcountries.eu/data/dza.svg",
+      "regionalBlocs": [
+        {
+          "acronym": "AU",
+          "name": "African Union",
+          "otherAcronyms": [],
+          "otherNames": [
+            "الاتحاد الأفريقي",
+            "Union africaine",
+            "União Africana",
+            "Unión Africana",
+            "Umoja wa Afrika"
+          ]
+        },
+        {
+          "acronym": "AL",
+          "name": "Arab League",
+          "otherAcronyms": [],
+          "otherNames": [
+            "جامعة الدول العربية",
+            "Jāmiʻat ad-Duwal al-ʻArabīyah",
+            "League of Arab States"
+          ]
+        }
+      ],
+      "cioc": "ALG",
+      "id": 2
+    },
+    {
+      "name": "India",
+      "topLevelDomain": [
+        ".in"
+      ],
+      "alpha2Code": "IN",
+      "alpha3Code": "IND",
+      "callingCodes": [
+        "91"
+      ],
+      "capital": "New Delhi",
+      "altSpellings": [
+        "IN",
+        "Bhārat",
+        "Republic of India",
+        "Bharat Ganrajya"
+      ],
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "population": 1295210000,
+      "latlng": [
+        20,
+        77
+      ],
+      "demonym": "Indian",
+      "area": 3287590,
+      "gini": 33.4,
+      "timezones": [
+        "UTC+05:30"
+      ],
+      "borders": [
+        "AFG",
+        "BGD",
+        "BTN",
+        "MMR",
+        "CHN",
+        "NPL",
+        "PAK",
+        "LKA"
+      ],
+      "nativeName": "भारत",
+      "numericCode": "356",
+      "currencies": [
+        {
+          "code": "INR",
+          "name": "Indian rupee",
+          "symbol": "₹"
+        }
+      ],
+      "languages": [
+        {
+          "iso639_1": "hi",
+          "iso639_2": "hin",
+          "name": "Hindi",
+          "nativeName": "हिन्दी"
+        },
+        {
+          "iso639_1": "en",
+          "iso639_2": "eng",
+          "name": "English",
+          "nativeName": "English"
+        }
+      ],
+      "translations": {
+        "de": "Indien",
+        "es": "India",
+        "fr": "Inde",
+        "ja": "インド",
+        "it": "India",
+        "br": "Índia",
+        "pt": "Índia",
+        "nl": "India",
+        "hr": "Indija",
+        "fa": "هند"
+      },
+      "flag": "https://restcountries.eu/data/ind.svg",
+      "regionalBlocs": [
+        {
+          "acronym": "SAARC",
+          "name": "South Asian Association for Regional Cooperation",
+          "otherAcronyms": [],
+          "otherNames": []
+        }
+      ],
+      "cioc": "IND",
+      "id": 3
+    },
+    {
+      "name": "India",
+      "topLevelDomain": [
+        ".in"
+      ],
+      "alpha2Code": "IN",
+      "alpha3Code": "IND",
+      "callingCodes": [
+        "91"
+      ],
+      "capital": "New Delhi",
+      "altSpellings": [
+        "IN",
+        "Bhārat",
+        "Republic of India",
+        "Bharat Ganrajya"
+      ],
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "population": 1295210000,
+      "latlng": [
+        20,
+        77
+      ],
+      "demonym": "Indian",
+      "area": 3287590,
+      "gini": 33.4,
+      "timezones": [
+        "UTC+05:30"
+      ],
+      "borders": [
+        "AFG",
+        "BGD",
+        "BTN",
+        "MMR",
+        "CHN",
+        "NPL",
+        "PAK",
+        "LKA"
+      ],
+      "nativeName": "भारत",
+      "numericCode": "356",
+      "currencies": [
+        {
+          "code": "INR",
+          "name": "Indian rupee",
+          "symbol": "₹"
+        }
+      ],
+      "languages": [
+        {
+          "iso639_1": "hi",
+          "iso639_2": "hin",
+          "name": "Hindi",
+          "nativeName": "हिन्दी"
+        },
+        {
+          "iso639_1": "en",
+          "iso639_2": "eng",
+          "name": "English",
+          "nativeName": "English"
+        }
+      ],
+      "translations": {
+        "de": "Indien",
+        "es": "India",
+        "fr": "Inde",
+        "ja": "インド",
+        "it": "India",
+        "br": "Índia",
+        "pt": "Índia",
+        "nl": "India",
+        "hr": "Indija",
+        "fa": "هند"
+      },
+      "flag": "https://restcountries.eu/data/ind.svg",
+      "regionalBlocs": [
+        {
+          "acronym": "SAARC",
+          "name": "South Asian Association for Regional Cooperation",
+          "otherAcronyms": [],
+          "otherNames": []
+        }
+      ],
+      "cioc": "IND",
+      "id": 4
+    },
+    {
+      "name": "Indonesia",
+      "topLevelDomain": [
+        ".id"
+      ],
+      "alpha2Code": "ID",
+      "alpha3Code": "IDN",
+      "callingCodes": [
+        "62"
+      ],
+      "capital": "Jakarta",
+      "altSpellings": [
+        "ID",
+        "Republic of Indonesia",
+        "Republik Indonesia"
+      ],
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 258705000,
+      "latlng": [
+        -5,
+        120
+      ],
+      "demonym": "Indonesian",
+      "area": 1904569,
+      "gini": 34,
+      "timezones": [
+        "UTC+07:00",
+        "UTC+08:00",
+        "UTC+09:00"
+      ],
+      "borders": [
+        "TLS",
+        "MYS",
+        "PNG"
+      ],
+      "nativeName": "Indonesia",
+      "numericCode": "360",
+      "currencies": [
+        {
+          "code": "IDR",
+          "name": "Indonesian rupiah",
+          "symbol": "Rp"
+        }
+      ],
+      "languages": [
+        {
+          "iso639_1": "id",
+          "iso639_2": "ind",
+          "name": "Indonesian",
+          "nativeName": "Bahasa Indonesia"
+        }
+      ],
+      "translations": {
+        "de": "Indonesien",
+        "es": "Indonesia",
+        "fr": "Indonésie",
+        "ja": "インドネシア",
+        "it": "Indonesia",
+        "br": "Indonésia",
+        "pt": "Indonésia",
+        "nl": "Indonesië",
+        "hr": "Indonezija",
+        "fa": "اندونزی"
+      },
+      "flag": "https://restcountries.eu/data/idn.svg",
+      "regionalBlocs": [
+        {
+          "acronym": "ASEAN",
+          "name": "Association of Southeast Asian Nations",
+          "otherAcronyms": [],
+          "otherNames": []
+        }
+      ],
+      "cioc": "INA",
+      "id": 5
+    },
+    {
+      "name": "Albania",
+      "topLevelDomain": [
+        ".al"
+      ],
+      "alpha2Code": "AL",
+      "alpha3Code": "ALB",
+      "callingCodes": [
+        "355"
+      ],
+      "capital": "Tirana",
+      "altSpellings": [
+        "AL",
+        "Shqipëri",
+        "Shqipëria",
+        "Shqipnia"
+      ],
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "population": 2886026,
+      "latlng": [
+        41,
+        20
+      ],
+      "demonym": "Albanian",
+      "area": 28748,
+      "gini": 34.5,
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "borders": [
+        "MNE",
+        "GRC",
+        "MKD",
+        "KOS"
+      ],
+      "nativeName": "Shqipëria",
+      "numericCode": "008",
+      "currencies": [
+        {
+          "code": "ALL",
+          "name": "Albanian lek",
+          "symbol": "L"
+        }
+      ],
+      "languages": [
+        {
+          "iso639_1": "sq",
+          "iso639_2": "sqi",
+          "name": "Albanian",
+          "nativeName": "Shqip"
+        }
+      ],
+      "translations": {
+        "de": "Albanien",
+        "es": "Albania",
+        "fr": "Albanie",
+        "ja": "アルバニア",
+        "it": "Albania",
+        "br": "Albânia",
+        "pt": "Albânia",
+        "nl": "Albanië",
+        "hr": "Albanija",
+        "fa": "آلبانی"
+      },
+      "flag": "https://restcountries.eu/data/alb.svg",
+      "regionalBlocs": [
+        {
+          "acronym": "CEFTA",
+          "name": "Central European Free Trade Agreement",
+          "otherAcronyms": [],
+          "otherNames": []
+        }
+      ],
+      "cioc": "ALB",
+      "id": 6
+    },
+    {
+      "name": "Aruba",
+      "topLevelDomain": [
+        ".aw"
+      ],
+      "alpha2Code": "AW",
+      "alpha3Code": "ABW",
+      "callingCodes": [
+        "297"
+      ],
+      "capital": "Oranjestad",
+      "altSpellings": [
+        "AW"
+      ],
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "population": 107394,
+      "latlng": [
+        12.5,
+        -69.96666666
+      ],
+      "demonym": "Aruban",
+      "area": 180,
+      "gini": null,
+      "timezones": [
+        "UTC-04:00"
+      ],
+      "borders": [],
+      "nativeName": "Aruba",
+      "numericCode": "533",
+      "currencies": [
+        {
+          "code": "AWG",
+          "name": "Aruban florin",
+          "symbol": "ƒ"
+        }
+      ],
+      "languages": [
+        {
+          "iso639_1": "nl",
+          "iso639_2": "nld",
+          "name": "Dutch",
+          "nativeName": "Nederlands"
+        },
+        {
+          "iso639_1": "pa",
+          "iso639_2": "pan",
+          "name": "(Eastern) Punjabi",
+          "nativeName": "ਪੰਜਾਬੀ"
+        }
+      ],
+      "translations": {
+        "de": "Aruba",
+        "es": "Aruba",
+        "fr": "Aruba",
+        "ja": "アルバ",
+        "it": "Aruba",
+        "br": "Aruba",
+        "pt": "Aruba",
+        "nl": "Aruba",
+        "hr": "Aruba",
+        "fa": "آروبا"
+      },
+      "flag": "https://restcountries.eu/data/abw.svg",
+      "regionalBlocs": [],
+      "cioc": "ARU",
+      "id": 7
+    },
+    {
+      "name": "Afghanistan",
+      "topLevelDomain": [
+        ".af"
+      ],
+      "alpha2Code": "AF",
+      "alpha3Code": "AFG",
+      "callingCodes": [
+        "93"
+      ],
+      "capital": "Kabul",
+      "altSpellings": [
+        "AF",
+        "Afġānistān"
+      ],
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "population": 27657145,
+      "latlng": [
+        33,
+        65
+      ],
+      "demonym": "Afghan",
+      "area": 652230,
+      "gini": 27.8,
+      "timezones": [
+        "UTC+04:30"
+      ],
+      "borders": [
+        "IRN",
+        "PAK",
+        "TKM",
+        "UZB",
+        "TJK",
+        "CHN"
+      ],
+      "nativeName": "افغانستان",
+      "numericCode": "004",
+      "currencies": [
+        {
+          "code": "AFN",
+          "name": "Afghan afghani",
+          "symbol": "؋"
+        }
+      ],
+      "languages": [
+        {
+          "iso639_1": "ps",
+          "iso639_2": "pus",
+          "name": "Pashto",
+          "nativeName": "پښتو"
+        },
+        {
+          "iso639_1": "uz",
+          "iso639_2": "uzb",
+          "name": "Uzbek",
+          "nativeName": "Oʻzbek"
+        },
+        {
+          "iso639_1": "tk",
+          "iso639_2": "tuk",
+          "name": "Turkmen",
+          "nativeName": "Türkmen"
+        }
+      ],
+      "translations": {
+        "de": "Afghanistan",
+        "es": "Afganistán",
+        "fr": "Afghanistan",
+        "ja": "アフガニスタン",
+        "it": "Afghanistan",
+        "br": "Afeganistão",
+        "pt": "Afeganistão",
+        "nl": "Afghanistan",
+        "hr": "Afganistan",
+        "fa": "افغانستان"
+      },
+      "flag": "https://restcountries.eu/data/afg.svg",
+      "regionalBlocs": [
+        {
+          "acronym": "SAARC",
+          "name": "South Asian Association for Regional Cooperation",
+          "otherAcronyms": [],
+          "otherNames": []
+        }
+      ],
+      "cioc": "AFG",
+      "id": 8
+    },
+    {
+      "name": "Austria",
+      "topLevelDomain": [
+        ".at"
+      ],
+      "alpha2Code": "AT",
+      "alpha3Code": "AUT",
+      "callingCodes": [
+        "43"
+      ],
+      "capital": "Vienna",
+      "altSpellings": [
+        "AT",
+        "Österreich",
+        "Osterreich",
+        "Oesterreich"
+      ],
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "population": 8725931,
+      "latlng": [
+        47.33333333,
+        13.33333333
+      ],
+      "demonym": "Austrian",
+      "area": 83871,
+      "gini": 26,
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "borders": [
+        "CZE",
+        "DEU",
+        "HUN",
+        "ITA",
+        "LIE",
+        "SVK",
+        "SVN",
+        "CHE"
+      ],
+      "nativeName": "Österreich",
+      "numericCode": "040",
+      "currencies": [
+        {
+          "code": "EUR",
+          "name": "Euro",
+          "symbol": "€"
+        }
+      ],
+      "languages": [
+        {
+          "iso639_1": "de",
+          "iso639_2": "deu",
+          "name": "German",
+          "nativeName": "Deutsch"
+        }
+      ],
+      "translations": {
+        "de": "Österreich",
+        "es": "Austria",
+        "fr": "Autriche",
+        "ja": "オーストリア",
+        "it": "Austria",
+        "br": "áustria",
+        "pt": "áustria",
+        "nl": "Oostenrijk",
+        "hr": "Austrija",
+        "fa": "اتریش"
+      },
+      "flag": "https://restcountries.eu/data/aut.svg",
+      "regionalBlocs": [
+        {
+          "acronym": "EU",
+          "name": "European Union",
+          "otherAcronyms": [],
+          "otherNames": []
+        }
+      ],
+      "cioc": "AUT",
+      "id": 9
+    },
+    {
+      "name": "Svalbard and Jan Mayen",
+      "topLevelDomain": [
+        ".sj"
+      ],
+      "alpha2Code": "SJ",
+      "alpha3Code": "SJM",
+      "callingCodes": [
+        "4779"
+      ],
+      "capital": "Longyearbyen",
+      "altSpellings": [
+        "SJ",
+        "Svalbard and Jan Mayen Islands"
+      ],
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "population": 2562,
+      "latlng": [
+        78,
+        20
+      ],
+      "demonym": "Norwegian",
+      "area": null,
+      "gini": null,
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "borders": [],
+      "nativeName": "Svalbard og Jan Mayen",
+      "numericCode": "744",
+      "currencies": [
+        {
+          "code": "NOK",
+          "name": "Norwegian krone",
+          "symbol": "kr"
+        }
+      ],
+      "languages": [
+        {
+          "iso639_1": "no",
+          "iso639_2": "nor",
+          "name": "Norwegian",
+          "nativeName": "Norsk"
+        }
+      ],
+      "translations": {
+        "de": "Svalbard und Jan Mayen",
+        "es": "Islas Svalbard y Jan Mayen",
+        "fr": "Svalbard et Jan Mayen",
+        "ja": "スヴァールバル諸島およびヤンマイエン島",
+        "it": "Svalbard e Jan Mayen",
+        "br": "Svalbard",
+        "pt": "Svalbard",
+        "nl": "Svalbard en Jan Mayen",
+        "hr": "Svalbard i Jan Mayen",
+        "fa": "سوالبارد و یان ماین"
+      },
+      "flag": "https://restcountries.eu/data/sjm.svg",
+      "regionalBlocs": [],
+      "cioc": "",
+      "id": 10
+    },
+    {
+      "name": "Afghanistan",
+      "topLevelDomain": [
+        ".af"
+      ],
+      "alpha2Code": "AF",
+      "alpha3Code": "AFG",
+      "callingCodes": [
+        "93"
+      ],
+      "capital": "Kabul",
+      "altSpellings": [
+        "AF",
+        "Afġānistān"
+      ],
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "population": 27657145,
+      "latlng": [
+        33,
+        65
+      ],
+      "demonym": "Afghan",
+      "area": 652230,
+      "gini": 27.8,
+      "timezones": [
+        "UTC+04:30"
+      ],
+      "borders": [
+        "IRN",
+        "PAK",
+        "TKM",
+        "UZB",
+        "TJK",
+        "CHN"
+      ],
+      "nativeName": "افغانستان",
+      "numericCode": "004",
+      "currencies": [
+        {
+          "code": "AFN",
+          "name": "Afghan afghani",
+          "symbol": "؋"
+        }
+      ],
+      "languages": [
+        {
+          "iso639_1": "ps",
+          "iso639_2": "pus",
+          "name": "Pashto",
+          "nativeName": "پښتو"
+        },
+        {
+          "iso639_1": "uz",
+          "iso639_2": "uzb",
+          "name": "Uzbek",
+          "nativeName": "Oʻzbek"
+        },
+        {
+          "iso639_1": "tk",
+          "iso639_2": "tuk",
+          "name": "Turkmen",
+          "nativeName": "Türkmen"
+        }
+      ],
+      "translations": {
+        "de": "Afghanistan",
+        "es": "Afganistán",
+        "fr": "Afghanistan",
+        "ja": "アフガニスタン",
+        "it": "Afghanistan",
+        "br": "Afeganistão",
+        "pt": "Afeganistão",
+        "nl": "Afghanistan",
+        "hr": "Afganistan",
+        "fa": "افغانستان"
+      },
+      "flag": "https://restcountries.eu/data/afg.svg",
+      "regionalBlocs": [
+        {
+          "acronym": "SAARC",
+          "name": "South Asian Association for Regional Cooperation",
+          "otherAcronyms": [],
+          "otherNames": []
+        }
+      ],
+      "cioc": "AFG",
+      "id": 11
+    },
+    {
+      "name": "Bulgaria",
+      "topLevelDomain": [
+        ".bg"
+      ],
+      "alpha2Code": "BG",
+      "alpha3Code": "BGR",
+      "callingCodes": [
+        "359"
+      ],
+      "capital": "Sofia",
+      "altSpellings": [
+        "BG",
+        "Republic of Bulgaria",
+        "Република България"
+      ],
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "population": 7153784,
+      "latlng": [
+        43,
+        25
+      ],
+      "demonym": "Bulgarian",
+      "area": 110879,
+      "gini": 28.2,
+      "timezones": [
+        "UTC+02:00"
+      ],
+      "borders": [
+        "GRC",
+        "MKD",
+        "ROU",
+        "SRB",
+        "TUR"
+      ],
+      "nativeName": "България",
+      "numericCode": "100",
+      "currencies": [
+        {
+          "code": "BGN",
+          "name": "Bulgarian lev",
+          "symbol": "лв"
+        }
+      ],
+      "languages": [
+        {
+          "iso639_1": "bg",
+          "iso639_2": "bul",
+          "name": "Bulgarian",
+          "nativeName": "български език"
+        }
+      ],
+      "translations": {
+        "de": "Bulgarien",
+        "es": "Bulgaria",
+        "fr": "Bulgarie",
+        "ja": "ブルガリア",
+        "it": "Bulgaria",
+        "br": "Bulgária",
+        "pt": "Bulgária",
+        "nl": "Bulgarije",
+        "hr": "Bugarska",
+        "fa": "بلغارستان"
+      },
+      "flag": "https://restcountries.eu/data/bgr.svg",
+      "regionalBlocs": [
+        {
+          "acronym": "EU",
+          "name": "European Union",
+          "otherAcronyms": [],
+          "otherNames": []
+        }
+      ],
+      "cioc": "BUL",
+      "id": 12
+    }
+  ]
+}

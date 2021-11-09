@@ -1,0 +1,130 @@
+<section class="form" style="background-image:url('https://images.pexels.com/photos/3278215/pexels-photo-3278215.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); background-size: cover; padding-bottom: 3em;">
+  <form class="form-horizontal">
+    <h1
+     style="align-content: center;margin-left: 30%; color: whitesmoke;"><strong>Sign in to Explore the World</strong></h1>
+    <div class="container">
+    <div class="col-md-6  mb-3 mt-3 ">
+      <div class="form-group">
+        <label for="firstname" style="color:whitesmoke;"><strong>FIRSTNAME:</strong></label>
+        <input type="text" class="form-control" [(ngModel)]="user.firstName" #firstName="ngModel" id="firstname"
+          name="firstname" placeholder="Enter your firstname" required minlength="1" pattern="^[a-zA-Z]+$" />
+      </div> 
+      <div *ngIf="firstName.touched && firstName.errors">
+        <div *ngIf="firstName.errors.required" class="alert alert-danger ">
+          First name is required
+        </div>
+        <div *ngIf="firstName.errors.minlength" class="alert alert-danger">
+          First name should have a minimum length of 1
+        </div>
+        <div *ngIf="firstName.errors.pattern" class="alert alert-danger"> For your Firstname please use alphabets only.
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <div class="form-group">
+        <label style="color: whitesmoke;"><strong>LASTNAME:</strong></label>
+        <input type="text" class="form-control" [(ngModel)]="user.lastName" #lastName="ngModel" id="lastname"
+          name="lastname" placeholder="Enter your lastname" required minlength="1" pattern="^[a-zA-Z]+$" />
+      </div> 
+      <div *ngIf="lastName.touched && lastName.errors">
+        <div *ngIf="lastName.errors.required" class="alert alert-danger">
+          Last name is required
+        </div>
+        <div *ngIf="lastName.errors.minlength" class="alert alert-danger">
+          Last name should have a minimum length of 1
+        </div>
+        <div *ngIf="lastName.errors.pattern" class="alert alert-danger"> For your Lastname please use alphabets only.
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <div class="form-group">
+        <label style="color: whitesmoke;"><strong>EMAIL:</strong></label>
+        <input type="text" class="form-control" [(ngModel)]="user.email" id="email" name="email"
+          placeholder="Enter your email" #email="ngModel" required email />
+      </div>
+      <div *ngIf="email.touched && email.errors">
+        <div *ngIf="email.errors.required" class="alert alert-danger">
+          Email is required!!!
+        </div> 
+        <div *ngIf="!email.valid">
+          <div *ngIf="email.errors.email" class="alert alert-danger">Email is invalid
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <div class="form-group">
+        <label style="color: whitesmoke;"><strong>PASSWORD:</strong></label>
+        <input type="password" class="form-control" [(ngModel)]="user.password" #password="ngModel" id="password"
+          name="password" placeholder="Enter your password" required minlength="6"   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+           />
+      </div> 
+      <div *ngIf="password.touched && password.errors">
+        <div *ngIf="password.errors.required" class="alert alert-danger">
+          Password is required
+        </div>
+        <div *ngIf="password.errors.pattern " class="alert alert-danger"> Must contain
+           at least one number and one uppercase and lowercase letter, and at least 8 or more characters.
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-6 mb-3 ">
+      <div class="form-group">
+
+        <label style="color: whitesmoke;"><strong>CONFIRMPASSWORD:</strong></label>
+        <input type="password" class="form-control" [(ngModel)]="user. confirmPassword" #confirmPassword="ngModel"
+          id="confirmpassword" name="confirmpassword" placeholder="Enter your confirmpassword" required minlength="6"
+          pattern="{{ password.value }}" />
+      </div> 
+      <div *ngIf="confirmPassword.touched && confirmPassword.errors">
+        <div *ngIf="confirmPassword.errors.required" class="alert alert-danger">
+          ConfirmPassword is required
+        </div>
+        <div *ngIf="confirmPassword.errors.minlength" class="alert alert-danger">
+          ConfirmPassword should have a minimum length of 6
+        </div>
+        <div *ngIf="confirmPassword.errors.pattern" class="alert alert-danger"> Password & Confirm Password does not
+          match.
+        </div>
+
+      </div>
+      
+    </div>
+    <div class="col-md-6 mb-3 ">
+      <div class="form-group">
+        
+        <label style="color:whitesmoke;"><strong>COUNTRY:</strong></label>
+        <select class="form-control" [(ngModel)]="user.country" id="country" name="country">
+          <option *ngFor="let country of countries" [value]="country">{{country}}</option>
+        </select>
+      </div>
+    </div>
+
+
+    <div class="col-md-6 mb-3 ">
+      <div class="form-group">
+
+        <div>
+          <label style="color: whitesmoke;"><input id="id_terms" name="terms" type="checkbox"><strong>I agree to the Terms Of Use and
+            Privacy Policy.</strong></label>
+        </div>
+      </div>
+      <div class="form-group">
+      
+        <div class="container  " >
+          <a routerLink="login"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" (click)="addUser()">REGISTER</button></a>
+        
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+</form>
+</section>
+<app-footer></app-footer>

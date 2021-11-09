@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+}
+div{
+    text-align: center;
+}
+mat-card{
+    display: inline-flex;
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    background-color:darkcyan;
+    
+}
